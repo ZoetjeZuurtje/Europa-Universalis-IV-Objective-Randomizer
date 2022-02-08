@@ -13,7 +13,7 @@ button {
   position: relative;
   left: 25%;
   border: none;
-  background-color: darkorange;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -40,10 +40,24 @@ a {
   text-decoration: none;
 }
 
-.easyObjective {
+.random:hover {
+  color: white;
+  background-color: black;
+}
+
+.easy {
   background-color: green;
 }
 
-.hardObjective {
-  background-color: darkred;
+.normal {
+  background-color: orange;
+}
+
+.hard {
+  background-color: #ee0000;
+}
+
+.veryhard {
+  background-color: #650707;
+  color: white;
 }
