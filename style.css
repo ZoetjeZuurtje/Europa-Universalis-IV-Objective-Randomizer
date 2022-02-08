@@ -1,17 +1,29 @@
 body {
+  position: relative;
+  text-align: center;
   background: #021832;
   color: #FFFFFF;
   padding: 25px;
   font-family: Helvetica, Verdana, sans-serif;
 }
 
-button {
+h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Times New Roman', serif;
   font-size: 20px;
-  margin: 10px;
-  width: 50%;
-  height: 40px;
+  font-weight: normal;
+}
+
+button {
   position: relative;
-  left: 25%;
+  font-size: 20px;
+  margin-bottom: 15px;
+  width: 40%;
+  height: 50px;
   border: none;
   border-radius: 5px;
 }
@@ -28,11 +40,6 @@ footer {
   width: 100%;
   height: 10%;
   background-color: black;
-  text-align: center;
-}
-
-p {
-  text-align: center;
 }
 
 a {
@@ -45,19 +52,70 @@ a {
   background-color: black;
 }
 
+.desc {
+  font-family: 'Times New Roman', serif;
+  position: relative;
+  width: 30%;
+  padding: 10px;
+  border: gray ridge 10px;
+  background-color: #002D60;
+  margin: 30px;
+}
+
+.random {
+  width: 50%;
+  height: 60px;
+}
+
+.randomDesc {
+  width: 70%;
+  left: 12%;
+}
+
 .easy {
   background-color: green;
+  right: 30%;
+}
+.easydesc {
+  background-color: green;
+  left: 1%;
+  bottom: 30px;
 }
 
 .normal {
   background-color: orange;
+  bottom: 240px;
+  left: 30%;
+}
+.normaldesc {
+  background-color: orange;
+  color: black;
+  left: 62%;
+  bottom: 270px;
 }
 
 .hard {
   background-color: #ee0000;
+  color: white;
+  right: 30%;
+  bottom: 235px;
+}
+.harddesc {
+  background-color: #ee0000;
+  color: white;
+  left: 1%;
+  bottom: 260px;
 }
 
 .veryhard {
   background-color: #650707;
   color: white;
+  left: 30%;
+  bottom: 475px;
+}
+.veryharddesc {
+  background-color: #650707;
+  color: white;
+  left: 62%;
+  bottom: 485px;
 }
