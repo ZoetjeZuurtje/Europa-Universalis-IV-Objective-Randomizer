@@ -53,7 +53,7 @@ const getHardObjective = () => {
 const getVeryHardObjective = () => {
     const cultureListVeryHard = ['Aleutian', 'Iniut', 'Chacoan', 'Melanesian', 'Maori', 'Papuan', 'Polynesian', 'American', 'Mexican', 'Brazilian'];
     const religionListVeryHard = ['Mahayana', 'Inti', 'Mayan', 'Tengri', 'Alcheringa', 'Jewish', 'Zoroastrian'];
-    const tagListVeryHard = ['Australia', 'Papal States', 'Port Royal', 'Tortuga', 'New Provendence'];
+    const tagListVeryHard = ['Australia', 'Gelre', 'Ryukyu', 'Port Royal', 'Tortuga', 'New Provendence'];
     let cultureRandomVeryHard = Math.floor(Math.random() * cultureListVeryHard.length);
     let religionRandomVeryHard = Math.floor(Math.random() * religionListVeryHard.length);
     let tagRandomVeryHard = Math.floor(Math.random() * tagListVeryHard.length);
