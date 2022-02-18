@@ -5,10 +5,7 @@ const getObjective = () => {
     let cultureRandom = Math.floor(Math.random() * cultureList.length);
     let religionRandom = Math.floor(Math.random() * religionList.length);
     let tagRandom = Math.floor(Math.random() * tagList.length);
-    let culture = cultureList[cultureRandom];
-    let religion = religionList[religionRandom];
-    let tag = tagList[tagRandom];
-    window.alert(`Your challenge is a ${culture} One Culture, a ${religion} One Faith, and a One Tag as ${tag}!`);
+    window.alert(`Your challenge is a ${cultureList[cultureRandom]} One Culture, a ${religionList[religionRandom]} One Faith, and a One Tag as ${tagList[tagRandom]}!`);
 }
 
 const getEasyObjective = () => {
@@ -18,10 +15,7 @@ const getEasyObjective = () => {
     let cultureRandomEasy = Math.floor(Math.random() * cultureListEasy.length);
     let religionRandomEasy = Math.floor(Math.random() * religionListEasy.length);
     let tagRandomEasy = Math.floor(Math.random() * tagListEasy.length);
-    let cultureEasy = cultureListEasy[cultureRandomEasy];
-    let religionEasy = religionListEasy[religionRandomEasy];
-    let tagEasy = tagListEasy[tagRandomEasy];
-    window.alert(`Your challenge is a ${cultureEasy} One Culture, a ${religionEasy} One Faith, and a One Tag as ${tagEasy}!`);
+    window.alert(`Your challenge is a ${cultureListEasy[cultureRandomEasy]} One Culture, a ${religionListEasy[religionRandomEasy]} One Faith, and a One Tag as ${tagListEasy[tagRandomEasy]}!`);
 }
 
 const getNormalObjective = () => {
@@ -31,10 +25,7 @@ const getNormalObjective = () => {
     let cultureRandomNormal = Math.floor(Math.random() * cultureListNormal.length);
     let religionRandomNormal = Math.floor(Math.random() * religionListNormal.length);
     let tagRandomNormal = Math.floor(Math.random() * tagListNormal.length);
-    let cultureNormal = cultureListNormal[cultureRandomNormal];
-    let religionNormal = religionListNormal[religionRandomNormal];
-    let tagNormal = tagListNormal[tagRandomNormal];
-    window.alert(`Your challenge is a ${cultureNormal} One Culture, a ${religionNormal} One Faith, and a One Tag as ${tagNormal}!`);
+    window.alert(`Your challenge is a ${cultureListNormal[cultureRandomNormal]} One Culture, a ${religionListNormal[religionRandomNormal]} One Faith, and a One Tag as ${tagListNormal[tagRandomNormal]}!`);
 }
 
 const getHardObjective = () => {
@@ -44,10 +35,7 @@ const getHardObjective = () => {
     let cultureRandomHard = Math.floor(Math.random() * cultureListHard.length);
     let religionRandomHard = Math.floor(Math.random() * religionListHard.length);
     let tagRandomHard = Math.floor(Math.random() * tagListHard.length);
-    let cultureHard = cultureListHard[cultureRandomHard];
-    let religionHard = religionListHard[religionRandomHard];
-    let tagHard = tagListHard[tagRandomHard];
-    window.alert(`Your challenge is a ${cultureHard} One Culture, a ${religionHard} One Faith, and a One Tag as ${tagHard}!`);
+    window.alert(`Your challenge is a ${cultureListHard[cultureRandomHard]} One Culture, a ${religionListHard[religionRandomHard]} One Faith, and a One Tag as ${tagListHard[tagRandomHard]}!`);
 }
 
 const getVeryHardObjective = () => {
@@ -57,8 +45,5 @@ const getVeryHardObjective = () => {
     let cultureRandomVeryHard = Math.floor(Math.random() * cultureListVeryHard.length);
     let religionRandomVeryHard = Math.floor(Math.random() * religionListVeryHard.length);
     let tagRandomVeryHard = Math.floor(Math.random() * tagListVeryHard.length);
-    let cultureVeryHard = cultureListVeryHard[cultureRandomVeryHard];
-    let religionVeryHard = religionListVeryHard[religionRandomVeryHard];
-    let tagVeryHard = tagListVeryHard[tagRandomVeryHard];
-    window.alert(`Your challenge is a ${cultureVeryHard} One Culture, a ${religionVeryHard} One Faith, and a One Tag as ${tagVeryHard}!`);
+    window.alert(`Your challenge is a ${cultureListVeryHard[cultureRandomVeryHard]} One Culture, a ${religionListVeryHard[religionRandomVeryHard]} One Faith, and a One Tag as ${tagListVeryHard[tagRandomVeryHard]}!`);
 }
